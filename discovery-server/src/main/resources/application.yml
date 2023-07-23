@@ -4,6 +4,8 @@ eureka:
   client:
     register-with-eureka: false # not a client
     fetch-registry: false # not a client, only client saved registry
+  username: ${EUREKA_USERNAME:eureka}
+  password: ${EIREKA_PASSWORD:password}
 
 
 server:
