@@ -34,8 +34,15 @@ spring:
         jwt:
           issuer-uri: http://localhost:8181/realms/spring-boot-microservices-realm
 
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+
 
 logging:
+  pattern:
+    level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
   level:
     root: info
     org.springframework.cloud.gateway.route.RouteDefinitionLocater : info
