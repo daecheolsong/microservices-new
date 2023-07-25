@@ -12,6 +12,7 @@
         <module name="order-service" />
         <module name="inventory-service" />
         <module name="discovery-server" />
+        <module name="notification-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="discovery-server" target="16" />
       <module name="inventory-service" target="16" />
       <module name="microservices-new" target="16" />
+      <module name="notification-service" target="16" />
       <module name="order-service" target="16" />
       <module name="product-service" target="16" />
     </bytecodeTargetLevel>
@@ -29,6 +31,7 @@
       <module name="discovery-server" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
       <module name="microservices-new" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
     </option>
