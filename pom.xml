@@ -73,6 +73,28 @@
                     <target>16</target>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.2.1</version>
+                <configuration>
+                    <from>
+                        <image>eclipse-temurin:18-jre</image>
+                        <auth>
+                            <username>daecheolsong</username>
+                            <password>xxx</password>
+                        </auth>
+                    </from>
+                    <to>
+                        <image>registry.hub.docker.com/daecheolsong/${project.artifactId}</image>
+                        <auth>
+                            <username>daecheolsong</username>
+                            <password>xxx</password>
+                        </auth>
+                    </to>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
