@@ -1,4 +1,4 @@
-# Microservices Sample Project
+# Spring Microservice
 
 This repository contains a simple microservices architecture built with **Spring Boot 3** and **Java 18**. It demonstrates a basic setup for an e-commerce scenario with independent services communicating via HTTP APIs.
 
@@ -17,6 +17,8 @@ The project is organized as a Maven multi‑module build. Each service resides i
 ```
 
 Communication between services is performed over REST endpoints. The order service calls the inventory service before placing an order to ensure that items are in stock.
+
+![img.png](images/architecture.png)
 
 ## Technology Stack
 
@@ -118,3 +120,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 This project is released under the MIT License.
+
+## References
+[Spring Boot Microservices Project Example](https://www.youtube.com/playlist?list=PLSVW22jAG8pBnhAdq9S8BpLnZ0_jVBj0c)
+
